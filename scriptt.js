@@ -7,7 +7,7 @@ const userIcons = () => {
     users.reverse();
     users.map((curElem) => {
         memberDiv.insertAdjacentHTML('afterbegin', `
-        <a href="../a_la_deriva/index.html"><button class="btn"><span>${curElem}</span></button> <a/>
+        <a href="../AdrianSProyect/a_la_deriva/index.html"><button class="btn"><span>${curElem}</span></button> <a/>
         `);
     })
 };
